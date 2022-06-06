@@ -5,5 +5,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = var.name
     Env = upper("eng")
+    owner = "rodel"
+    backup = "true"
   }
 }
