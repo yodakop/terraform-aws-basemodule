@@ -8,9 +8,9 @@ default = "t2.micro"
 }
 
 variable "name" {
-default = "server1"
+default = "rodel-module"
 }
 
 variable "bucketname" {
-default = "bucket-name-gagan-bucket-222"
+default = "bucket-name-rodel-bucket-0606"
 }
