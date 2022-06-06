@@ -4,6 +4,6 @@ resource "aws_instance" "myawsserver" {
 
   tags = {
     Name = var.name
-    Env = upper("Prod")
+    Env = upper("eng")
   }
 }
